@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f6f8;
+}
+
+.container
+{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid lightcoral;
+    padding: 15px;
+    min-width: 350px;
+    
+   
+}
+.container>div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+img
+{
+    height: 250px;
+    width: 200px;
+    object-position: center;  
+    object-fit: fill;
+    transition: 0.3s ease-in-out;
+}
+
+button
+{
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 10px;
+    background-color: lightcoral;
+    border: none;
+    transition: 0.3s;
+    margin: auto;
+    font-family: 'Kanit', sans-serif;
+}
+
+button:active
+{
+    scale: 0.98;
+}
+
+.dogu,.foxu
+{
+    min-height: 260px;
+    min-width: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid lightcoral;
+}
+
+p
+{
+    font-family: 'Kanit', sans-serif;
+}
